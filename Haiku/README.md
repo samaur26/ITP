@@ -5,7 +5,7 @@ pwd
 ``` 
 in order to show the directory I was currently in. Then, I used
 ```cli
-cd
+cd /Users/sra26/Documents/GitHub/ITP/Haiku
 ```
 to switch the working directory to the Haiku subfolder of my ITP repository. After this, I used this code from [our class repository](https://github.com/rdwrome/261sp26/blob/main/01Git%26Shell/README.md#code-along-1) and modified the text to say my haiku instead of "Hello, world:"
 ```cli
