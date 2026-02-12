@@ -16,7 +16,7 @@ When I tried to run the code for the first time in EloquentJavascript, I got a s
 let c = (f-32)*5/9;
 ```
 
-After plugging the new equation into my code, I was left with
+in order to get javaScript to understand what I was saying. After plugging the new equation into my code, I was left with
 
 ```javascript
 const f = 99;
