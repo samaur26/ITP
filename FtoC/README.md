@@ -1,4 +1,5 @@
-#FtoC
+# FtoC
+
 First, I created the FtoC.js file in order to complete the assignment. Then, I used the code from our codealong.js file on the [class repository](https://github.com/rdwrome/261sp26/blob/main/03Operators%26Bindings/codealong.js) as a reference to get the ball rolling.
 
 My first pass of code looked like this:
