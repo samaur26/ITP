@@ -6,20 +6,19 @@ function setup() {
 function drawObject(x, y, s) {
   push();
   translate(x, y);
-  scale(0.6);
+  scale(s);
   fill(255, 204, 51);
-  circle(150, 150, 150); // Draw head
+  circle(200, 200, 370); // Draw head
   fill(119, 64, 25);
-  ellipse(120,150,15,20);
-  ellipse(180,150,15,20); 
-  arc(150, 175, 80, 55, 0, PI); // Draw eyes and mouth
+  ellipse(126,200,37,49);
+  ellipse(274,200,37,49);
+  arc(200,262,197,136,0,PI); // Draw eyes/mouth
   fill(235,69,138);
-  ellipse(150,205,35,50); // Draw tongue
+  ellipse(200,336,86,123); // Draw tongue
   pop();
 }
 
 function draw() {
-  drawObject(0, 0, 0);
-  drawObject(0, 120, 0);
-  drawObject(0, 240, 0);
+  drawObject(0,0,0.5)
+  drawObject(200,200,0.5)
 }
