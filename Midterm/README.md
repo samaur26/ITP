@@ -134,7 +134,8 @@ function drawObject(x, y, s) {
 	...
 	**scale(s);**
 	...;
-    }```
+    }
+```
 
 became
 
@@ -143,7 +144,8 @@ function drawObject(x, y, s) {
 	...
 	**scale(objectSize/400);**
 	...;
-	}```
+	}
+```
 
 In the case of a 20x20 grid, objectSize would be 20, and 20/400 = 0.05, the s-variable that allows for a perfect 20x20 grid!
 
