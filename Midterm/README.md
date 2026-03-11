@@ -2,7 +2,7 @@
 ## Phase 1
 I decided to go with the emoji with its' tongue sticking out. It's a pretty easy emoji to draw, uses very simple shapes, and wouldn't be too much trouble to put together in p5. 
 
-<img src="Phase1.heic" alt="Here's the final result!" width="300" height="300">
+<img src="Phase1.png" alt="Here's the final result!" width="300" height="300">
 
 ## Phase 2
 Phase 2 was very straightforward. First, I used the setup and draw functions from [our class repository](https://github.com/rdwrome/261sp26/tree/main/06Midterm#phase-2-translate-to-p5js-sketch). Then, I adjusted the dimensions so that the canvas would be 400x400 pixels. 
