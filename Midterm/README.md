@@ -104,9 +104,7 @@ function drawObject(x, y, s) {
 	**scale(s);**
 	...;```
 
-To test this code, I simply inputted 10 into every instance of ```rows```. Unfortunately... the code didn't work. I realized that I was using the scaling variable incorrectly. Instead of having the ```s``` be the scale number, I had to make it the size of a single visual object; 80x80 pixels for a single 5x5 tile, 40x40 pixels for a single 10x10 tile, and 20x20 pixels for a single 20x20 tile.S
-
-
+To test this code, I simply inputted 10 into every instance of ```rows```. Unfortunately... the code didn't work. I realized that I was using the scaling variable incorrectly. Instead of having the ```s``` be the scale number, I had to make it the size of a single visual object; 80x80 pixels for a single 5x5 tile, 40x40 pixels for a single 10x10 tile, and 20x20 pixels for a single 20x20 tile.
 
 So, ```s``` became ```objectSize.``` This parameter could simply be calculated by dividing the total width of the canvas (400) by the number of rows and columns in the grid (5, 10, 20, etc.). So, I was left with:
 
@@ -186,7 +184,7 @@ function drawObject(x, y, s) {
 function draw() {
   for (let x = 0; x < rows; x++) {
     for (let y = 0; y < cols; y++) {
-      drawObject(x*(width/rows), y*(height/rows), objectSize);
+      drawObject(x*(width/rows), y*(height/columns), objectSize);
     }
   }
 }```
