@@ -21,7 +21,7 @@ function drawObject(x, y, s) {
 function draw() {
   for (let x = 0; x < rows; x++) {
     for (let y = 0; y < cols; y++) {
-      drawObject(x*(width/rows), y*(height/columns), objectSize);
+      drawObject(x*(width/rows), y*(height/cols), objectSize);
     }
   }
 }
