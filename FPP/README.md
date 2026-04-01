@@ -1,6 +1,7 @@
 # Final Project Proposal
 ### One Sentence Overview
 My final project will be an interactive Amen Break sampler, accompanied with reactive visuals.
+
 ###Resources
 [Working with sound in P5](https://p5js.org/reference/p5.sound/)
 
