@@ -49,7 +49,8 @@ function keyPressed(){
    if (key === 'f'){
     Slice8.play();
   }
-}```
+}
+```
 
 ## Part 2: Perlin Noise Background
 This part was also (relatively) simple. But not easy! I wanted the background to look like clouds, and knew the way to do that was with perlin noise. In order to get a starting point, I simply copied the start of the [2D perlin noise section](https://genekogan.com/code/p5js-perlin-noise/) of Gene Kogan's tutorial in order to get a starting point:
