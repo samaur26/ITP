@@ -106,9 +106,9 @@ function setup() {
   for (let x = 0; x < width; x+=2) {
        for (let y = 0; y < height; y+=2) {
          n = noise(0.01*x, 0.01*y);   
-      let r = map(n, 0, 1, 200, 255);
-      let g = map(n, 0, 1, 94, 127);
-      let b = map(n, 0, 1, 83, 115);    
+         r = map(n, 0, 1, 200, 255);
+         g = map(n, 0, 1, 94, 127);
+         b = map(n, 0, 1, 83, 115);    
          fill(r, g, b);
          rect(x,y,2,2);
          }
