@@ -309,7 +309,7 @@ statement to:
 
 Which worked!
 
-Finally, I figured it'd be fun to add some modulation with the mouse on the x-axis. I decided to make the sampler have a lowpass filter. Mouse all the way to the left, and the filter would be 100% on. Moving the mouse to the right would increase the LPF frequency. [P5 has a nifty little filter function](https://p5js.org/reference/p5.sound/p5.Filter/), and I adapted the first example to fit my code better. First, I created a let statement with the filter at the top of my code, before calling a lowpass filter within my setup function. Then, within the draw function, I created a let statement for the cutoff of the filter. I remapped the mouse's x-axis and width to a range between 20 and 20000, as those are the frequency values within the filter. Then, I set the filter's frequency to be the value of the cut function. 
+Finally, I figured it'd be fun to add some modulation with the mouse on the x-axis. I decided to make the sampler have a lowpass filter. Mouse all the way to the left, and the filter would be 100% on. Moving the mouse to the right would increase the LPF frequency. [P5 has a nifty little filter function](https://p5js.org/reference/p5.sound/p5.Filter/), and I adapted the first example to fit my code better. First, I created a let statement with the filter at the top of my code, before calling a lowpass filter within my setup function. Then, within the draw function, I created a let statement for the cutoff of the filter. I remapped the mouse's x-axis position from a value between 0 and 800 to a range between 20 and 20000. Those are the frequency values within the filter. Then, I set the filter's cutoff frequency to be the value of the cut function. 
 
 A bit wordy, but here it is:
 
@@ -321,7 +321,7 @@ function setup(){
   filter = new p5.LowPass();
  ...
  function draw() {
-   let cut = map(mouseX, 0, width, 20, 20000);
+   let cut = map(mouseX, 0, 800, 20, 20000);
    filter.freq(cut);
 ```
 
